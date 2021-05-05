@@ -1,8 +1,8 @@
+import Concrete.SaleManager;
 import Entities.Campaign;
 import Entities.CampaignSale;
 import Entities.Game;
 import Entities.Player;
-import Services.SaleManager;
 
 public class Main {
 
@@ -13,9 +13,8 @@ public class Main {
 		Campaign campaign = new Campaign(1,50);
 		CampaignSale sale=new CampaignSale(1, game, player, campaign);
 		
-		SaleManager saleManager=new SaleManager(sale);
-		saleManager.Add();
-		
+		SaleManager saleManager=new SaleManager();
+		saleManager.add(sale);
 	}
 
 }

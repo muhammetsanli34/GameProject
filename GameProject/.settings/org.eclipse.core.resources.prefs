@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
+encoding//src/Concrete/CampaignManager.java=UTF-8
+encoding//src/Concrete/GameManager.java=UTF-8
+encoding//src/Concrete/PlayerManager.java=UTF-8
+encoding//src/Concrete/SaleManager.java=UTF-8
 encoding//src/Main.java=UTF-8
-encoding//src/Services/CampaignManager.java=UTF-8
-encoding//src/Services/GameManager.java=UTF-8
-encoding//src/Services/PlayerManager.java=UTF-8
-encoding//src/Services/SaleManager.java=UTF-8
