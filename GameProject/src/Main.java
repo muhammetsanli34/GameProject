@@ -14,7 +14,7 @@ public class Main {
 		CampaignSale sale=new CampaignSale(1, game, player, campaign);
 		
 		SaleManager saleManager=new SaleManager();
-		saleManager.add(sale);
+		saleManager.add(sale); 
 	}
 
 }
